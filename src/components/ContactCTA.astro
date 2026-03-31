@@ -1,0 +1,38 @@
+---
+type SiteData = typeof import("../data/site").site;
+
+interface Props {
+  site: SiteData;
+}
+
+const { site } = Astro.props;
+---
+
+<section data-reveal class="reveal-up rounded-[2rem] border border-[var(--color-line-strong)] bg-[linear-gradient(135deg,rgba(123,88,69,.16),rgba(26,29,31,.02))] px-6 py-8 md:px-10 md:py-12">
+  <div class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_18rem] lg:items-end">
+    <div>
+      <p class="text-[0.72rem] font-semibold uppercase tracking-[0.3em] text-[var(--color-muted)]">联系 / Elsewhere</p>
+      <h2 class="mt-4 max-w-3xl font-serif text-5xl leading-[0.95] tracking-[-0.04em] md:text-6xl">
+        如果你也在意网页里的质感、分寸和人与界面的关系，欢迎来信。
+      </h2>
+      <p class="mt-6 max-w-xl text-base leading-8 text-[var(--color-soft-ink)]">
+        我更喜欢那些可以慢慢聊清楚的合作和交流。不急着定义，也不急着把话说满。
+      </p>
+    </div>
+    <div class="space-y-4">
+      <a class="cta-link cta-link--primary w-full justify-center" href={`mailto:${site.email}`}>
+        {site.email}
+      </a>
+      <div class="rounded-[1.5rem] border border-[var(--color-line)] p-5">
+        <p class="text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)]">其他入口</p>
+        <div class="mt-4 flex flex-wrap gap-3">
+          {site.socialLinks.map((link) => (
+            <a class="mini-link" href={link.href} target="_blank" rel="noreferrer">
+              {link.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

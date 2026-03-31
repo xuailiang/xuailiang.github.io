@@ -1,0 +1,19 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#E9E1D8"/>
+  <rect x="74" y="74" width="1452" height="952" stroke="#1A1717" stroke-opacity="0.12"/>
+  <rect x="164" y="138" width="1272" height="824" fill="url(#paint0_linear_201_23)"/>
+  <rect x="258" y="242" width="402" height="604" fill="#233041" fill-opacity="0.84"/>
+  <rect x="738" y="222" width="562" height="278" fill="#EEF0F4" fill-opacity="0.12"/>
+  <rect x="738" y="544" width="562" height="302" fill="#A6B3C3" fill-opacity="0.28"/>
+  <circle cx="1082" cy="376" r="132" fill="#EDE4DA" fill-opacity="0.3"/>
+  <text x="250" y="330" fill="#F5F0EA" fill-opacity="0.94" font-family="Georgia, serif" font-size="72">Night Window</text>
+  <text x="252" y="388" fill="#F5F0EA" fill-opacity="0.58" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">AN ONLINE MOOD WITH QUIET PRODUCT INSTINCTS</text>
+  <text x="744" y="796" fill="#F5F0EA" fill-opacity="0.56" font-family="Arial, sans-serif" font-size="22" letter-spacing="8">WEB STORY / ONLINE MOOD / SUBTLE TECH</text>
+  <defs>
+    <linearGradient id="paint0_linear_201_23" x1="282" y1="172" x2="1342" y2="944" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C576B"/>
+      <stop offset="0.52" stop-color="#2B303E"/>
+      <stop offset="1" stop-color="#171515"/>
+    </linearGradient>
+  </defs>
+</svg>

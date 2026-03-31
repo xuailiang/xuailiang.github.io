@@ -1,0 +1,15 @@
+---
+interface Props {
+  index: string;
+  label: string;
+  align?: "left" | "right";
+}
+
+const { index, label, align = "left" } = Astro.props;
+---
+
+<div class:list={["section-label", align === "right" && "justify-end"]}>
+  <span class="section-label__index">{index}</span>
+  <span class="section-label__line"></span>
+  <span class="section-label__text">{label}</span>
+</div>

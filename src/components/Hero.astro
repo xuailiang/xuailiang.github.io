@@ -1,0 +1,54 @@
+---
+import type { CollectionEntry } from "astro:content";
+type SiteData = typeof import("../data/site").site;
+
+interface Props {
+  site: SiteData;
+  leadWork?: CollectionEntry<"work">;
+}
+
+const { site, leadWork } = Astro.props;
+---
+
+<section class="grid gap-10 px-6 pb-10 pt-8 md:px-10 lg:grid-cols-[minmax(0,1.16fr)_25rem] lg:items-end lg:px-14 lg:pb-20 lg:pt-12">
+  <div>
+    <div data-reveal class="reveal-up mb-8 flex items-center gap-3 text-[0.72rem] font-semibold uppercase tracking-[0.28em] text-[var(--color-muted)]">
+      <span class="inline-block h-px w-10 bg-[var(--color-line)]"></span>
+      <span>{site.signatureLine}</span>
+    </div>
+    <p data-reveal class="reveal-up delay-1 max-w-lg text-sm font-medium uppercase tracking-[0.24em] text-[var(--color-accent)]">
+      {site.name}
+    </p>
+    <h1 data-reveal class="reveal-up delay-2 mt-4 max-w-5xl text-6xl leading-[0.9] font-semibold tracking-[-0.04em] text-balance md:text-7xl lg:text-[7.4rem]">
+      {site.title}
+    </h1>
+    <p data-reveal class="reveal-up delay-3 mt-5 max-w-2xl text-lg leading-relaxed text-[var(--color-muted)] md:text-xl">
+      {site.tagline}
+    </p>
+    <p data-reveal class="reveal-up delay-4 mt-8 max-w-2xl text-base leading-8 text-[var(--color-soft-ink)]">
+      {site.shortBio}
+    </p>
+    <p data-reveal class="identity-note reveal-up delay-5 mt-8 max-w-2xl">{site.identityNote}</p>
+    <div data-reveal class="reveal-up delay-6 mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
+      <a class="cta-link cta-link--primary" href="#stories">进入内容</a>
+      <a class="cta-link" href={`mailto:${site.email}`}>联系我</a>
+    </div>
+  </div>
+
+  <aside data-reveal class="reveal-up delay-4">
+    <div class="hero-visual hero-visual--float">
+      <img src={site.heroPhoto} alt={site.name} class="hero-visual__image" />
+      <div class="hero-visual__caption">
+        <p class="hero-visual__eyebrow">{site.location}</p>
+        <p class="hero-visual__text">{site.heroNote}</p>
+      </div>
+      {leadWork && (
+        <a href={`/work/${leadWork.slug}/`} class="hero-visual__story">
+          <span class="hero-visual__story-label">此刻 / Now</span>
+          <span class="hero-visual__story-meta">Shanghai, CN</span>
+          <strong>{leadWork.data.title}</strong>
+        </a>
+      )}
+    </div>
+  </aside>
+</section>
