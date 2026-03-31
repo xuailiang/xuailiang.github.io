@@ -1,0 +1,20 @@
+<svg width="900" height="1120" viewBox="0 0 900 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1120" fill="#ECE4DB"/>
+  <rect x="48" y="48" width="804" height="1024" stroke="#241B17" stroke-opacity="0.12"/>
+  <rect x="102" y="96" width="696" height="928" fill="url(#paint0_linear_410_7)"/>
+  <circle cx="618" cy="246" r="76" fill="#F6EBDD" fill-opacity="0.34"/>
+  <rect x="150" y="544" width="96" height="312" fill="#1F2630" fill-opacity="0.62"/>
+  <rect x="278" y="458" width="124" height="398" fill="#39414E" fill-opacity="0.76"/>
+  <rect x="436" y="392" width="132" height="464" fill="#4A5767" fill-opacity="0.84"/>
+  <rect x="600" y="500" width="102" height="356" fill="#6F859B" fill-opacity="0.68"/>
+  <path d="M150 914C222.667 865.333 295.333 865.333 368 914C440.667 962.667 513.333 962.667 586 914C658.667 865.333 731.333 865.333 804 914V1024H150V914Z" fill="#E8CDBA"/>
+  <text x="140" y="176" fill="#F8F3EC" fill-opacity="0.86" font-family="Arial, sans-serif" font-size="22" letter-spacing="8">CITY</text>
+  <text x="142" y="950" fill="#F8F3EC" fill-opacity="0.54" font-family="Arial, sans-serif" font-size="18" letter-spacing="7">COMMUTE / WALK / QUIET FRAGMENTS</text>
+  <defs>
+    <linearGradient id="paint0_linear_410_7" x1="146" y1="132" x2="736" y2="994" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B735F"/>
+      <stop offset="0.4" stop-color="#5C646F"/>
+      <stop offset="1" stop-color="#252526"/>
+    </linearGradient>
+  </defs>
+</svg>

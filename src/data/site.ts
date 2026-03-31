@@ -11,7 +11,7 @@ export const site = {
   location: "Shanghai / Remote",
   availability: "开放给合适的合作与令人心动的机会",
   email: "hello@yuxinji.studio",
-  siteUrl: "https://your-github-username.github.io",
+  siteUrl: "https://xuailiang.github.io",
   heroImage: "/images/personal-photo.png",
   heroPhoto: "/images/personal-photo.png",
   photoMoments: [

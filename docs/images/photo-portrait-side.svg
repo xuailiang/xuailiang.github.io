@@ -1,0 +1,18 @@
+<svg width="900" height="1120" viewBox="0 0 900 1120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1120" fill="#EEE4D8"/>
+  <rect x="48" y="48" width="804" height="1024" stroke="#241B17" stroke-opacity="0.12"/>
+  <rect x="104" y="96" width="692" height="928" fill="url(#paint0_linear_410_1)"/>
+  <ellipse cx="498" cy="548" rx="238" ry="312" fill="#F2DED0" fill-opacity="0.34"/>
+  <path d="M312 842C336.845 720.96 437.951 634 559 634C684.092 634 787.532 727.153 808 848V1000H312V842Z" fill="#2B2320"/>
+  <path d="M344 472C344 375.351 422.351 297 519 297C615.649 297 694 375.351 694 472V551C694 647.649 615.649 726 519 726C422.351 726 344 647.649 344 551V472Z" fill="#F1D7C4"/>
+  <path d="M338 454C338 367.409 408.409 297 495 297H546C645.964 297 727 378.036 727 478V520H338V454Z" fill="#3D302D"/>
+  <text x="136" y="178" fill="#FBF6F0" fill-opacity="0.88" font-family="Arial, sans-serif" font-size="22" letter-spacing="8">PORTRAIT</text>
+  <text x="136" y="910" fill="#FBF6F0" fill-opacity="0.52" font-family="Arial, sans-serif" font-size="18" letter-spacing="7">REPLACE WITH YOUR OWN PHOTO</text>
+  <defs>
+    <linearGradient id="paint0_linear_410_1" x1="144" y1="132" x2="724" y2="992" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A7969"/>
+      <stop offset="0.46" stop-color="#6D5A54"/>
+      <stop offset="1" stop-color="#28201E"/>
+    </linearGradient>
+  </defs>
+</svg>

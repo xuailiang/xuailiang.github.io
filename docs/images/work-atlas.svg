@@ -1,0 +1,15 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#E7E1D8"/>
+  <rect x="64" y="64" width="1472" height="972" stroke="#1B2430" stroke-opacity="0.12"/>
+  <rect x="164" y="172" width="554" height="730" fill="#283647"/>
+  <rect x="782" y="172" width="654" height="244" fill="#AFC0D0"/>
+  <rect x="782" y="446" width="654" height="456" fill="#F5F2EC"/>
+  <circle cx="442" cy="450" r="176" fill="#5C748E"/>
+  <rect x="908" y="536" width="126" height="126" fill="#2E4258"/>
+  <rect x="1056" y="536" width="126" height="126" fill="#A3B6C8"/>
+  <rect x="1204" y="536" width="126" height="126" fill="#D6DEE7"/>
+  <line x1="782" y1="500.5" x2="1436" y2="500.5" stroke="#1B2430" stroke-opacity="0.12"/>
+  <text x="816" y="286" fill="#1B2430" fill-opacity="0.72" font-family="Georgia, serif" font-size="64" letter-spacing="-2">Motion Atlas</text>
+  <text x="818" y="338" fill="#1B2430" fill-opacity="0.48" font-family="Arial, sans-serif" font-size="24" letter-spacing="8">MOVING IMAGE / RESEARCH / STORY DEPTH</text>
+  <text x="164" y="968" fill="#1B2430" fill-opacity="0.4" font-family="Arial, sans-serif" font-size="22" letter-spacing="8">AN EXPERIMENT IN RHYTHM AND DIGITAL SPACE</text>
+</svg>

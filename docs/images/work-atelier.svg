@@ -1,0 +1,13 @@
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1100" fill="#E7DED2"/>
+  <rect x="62" y="58" width="1476" height="984" stroke="#2B211D" stroke-opacity="0.16"/>
+  <rect x="156" y="140" width="470" height="720" fill="#D4B6A4"/>
+  <rect x="700" y="204" width="632" height="434" fill="#342521"/>
+  <rect x="1034" y="702" width="290" height="188" fill="#A15539"/>
+  <rect x="700" y="680" width="290" height="210" fill="#E5D9CD"/>
+  <path d="M268 318C362.771 256.88 493.474 284.777 555 382.5C616.526 480.223 585.56 611.12 490.789 672.24C396.018 733.361 265.315 705.463 203.789 607.74C142.263 510.017 173.229 379.12 268 318Z" fill="#B66A4A"/>
+  <line x1="700" y1="160.5" x2="1332" y2="160.5" stroke="#2B211D" stroke-opacity="0.16"/>
+  <line x1="700" y1="673.5" x2="1332" y2="673.5" stroke="#2B211D" stroke-opacity="0.16"/>
+  <text x="702" y="120" fill="#2B211D" fill-opacity="0.55" font-family="Georgia, serif" font-size="34" letter-spacing="8">ATELIER NO.17</text>
+  <text x="704" y="741" fill="#2B211D" fill-opacity="0.6" font-family="Arial, sans-serif" font-size="24" letter-spacing="6">SCENT / MATERIAL / MEMORY</text>
+</svg>
