@@ -369,7 +369,7 @@ body::after {
 .hero-visual__story {
   position: absolute;
   top: 1.2rem;
-  right: var(--hero-card-inset);
+  right: calc(var(--hero-card-inset) - 0.32rem);
   display: inline-flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -538,7 +538,7 @@ body::after {
   }
 
   .hero-visual__story {
-    right: var(--hero-card-inset);
+    right: calc(var(--hero-card-inset) - 0.22rem);
     top: 0.85rem;
     max-width: 11rem;
   }
