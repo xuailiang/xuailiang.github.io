@@ -315,6 +315,7 @@ body::after {
 }
 
 .hero-visual {
+  --hero-card-inset: 1rem;
   position: relative;
   overflow: hidden;
   aspect-ratio: 0.82;
@@ -342,7 +343,7 @@ body::after {
 
 .hero-visual__caption {
   position: absolute;
-  inset: auto 1rem 1rem 1rem;
+  inset: auto var(--hero-card-inset) var(--hero-card-inset) var(--hero-card-inset);
   border-radius: 1.4rem;
   border: 1px solid rgba(255, 255, 255, 0.16);
   background: rgba(17, 14, 12, 0.24);
@@ -368,7 +369,7 @@ body::after {
 .hero-visual__story {
   position: absolute;
   top: 1.2rem;
-  right: 1.2rem;
+  right: var(--hero-card-inset);
   display: inline-flex;
   flex-direction: column;
   gap: 0.3rem;
@@ -537,13 +538,13 @@ body::after {
   }
 
   .hero-visual__story {
-    right: 0.85rem;
+    right: var(--hero-card-inset);
     top: 0.85rem;
     max-width: 11rem;
   }
 
   .hero-visual__caption {
-    inset: auto 0.85rem 0.85rem 0.85rem;
+    inset: auto var(--hero-card-inset) var(--hero-card-inset) var(--hero-card-inset);
   }
 
   .hero-visual--float {
@@ -551,6 +552,7 @@ body::after {
   }
 
   .hero-visual {
+    --hero-card-inset: 0.85rem;
     aspect-ratio: 0.98;
     min-height: auto;
   }
